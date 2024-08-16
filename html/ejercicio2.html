@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>--Votación por Sección--</title>
+    <link rel="stylesheet" href="../css/estilos2.css">
+    <link rel="icon" href="/img/perrito.png">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Votación</h1>
+        <form id="formularioVoto">
+            <label for="seccion">Seleccione una opción:</label>
+            <select id="seccion" name="seccion">
+                <option value="norte">1.- Rosa</option>
+                <option value="sur">2.- Negro</option>
+                <option value="centro">3.- Azul</option>
+            </select>
+            <button type="submit">Emitir Voto</button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="../js/script2.js"></script>
+</body>
+</html>
